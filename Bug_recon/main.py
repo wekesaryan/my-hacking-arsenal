@@ -52,8 +52,8 @@ def check_vulnerabilities(url):
 def list_functions():
     print("\nAvailable Functions:")
     print("1. Subdomain Enumeration")
-    print("2. Port Scanning")
-    print("3. Common Vulnerability Scanning")
+    print("2. Port Scanning using Nmap")
+    print("3. Fetch HTTP Header")
     print("4. Exit")
 
 # Main Function
@@ -90,3 +90,36 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+# Common vulnerabilities check tool to add to the script:
+'''
+- Subdomain enumeration
+- WHOIS Lookup
+- DNS Lookup & Reverse DNS Lookup
+- Gathering metadata from public sources i.e emails, names, etc.
+- SSL/TLS certificate information
+- Network scans i.e services, ports, etc.
+- Web application vulnerabilities i.e. SQLi, XSS, CSRF, RCE, SSRF, etc.
+- Directory Brute force
+- Directory Traversal
+- Insecure Direct Object References (IDOR)
+- Security Misconfiguration
+- Insufficient Logging & Monitoring
+'''
+
+# You can also add third-party tools API intergrations like:
+'''
+- Amass
+- Exiftool
+- Nuclei
+- Nikto
+- Nmap
+- Securitytails
+- Shodan
+- VirusTotal
+'''
+
+
+
