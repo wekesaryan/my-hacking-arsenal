@@ -1,4 +1,13 @@
-# 80h3m14n-security-tools
+# my-hacking-arsenal
+
+- AI Intergration
+- Bug Bounty Automation
+- Malware
+
+
+
+
+
 
 ## External tools used
 
